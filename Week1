@@ -1,0 +1,79 @@
+Requirement:
+- Basic Probability Theory
+- Some Programming
+- Some Algorithms and Data Structure
+
+Recommended:
+- Machine Learning
+- Gradient Descent
+- Matlab / Octave
+
+
+Sample:
+1. Medical Diagnostic
+From the symptoms we can determine what is the diseases, treatment, etc. 
+2. Image Segmentation
+Input: Pixels
+Result = Class
+
+What are their common thing:
+a. They are complex.
+
+Definition:
+Models : Declarative Representation (So the model can be generalized and used for different algorithms.)
+
+2 ways to train the model:
+- Domain Expert
+- Data (Historical Data)
+
+Probabilistic: Handle with Uncertainty.
+- We have partial knowledge for the models.
+- Noisy Observation.
+- Modeling Limitation, not covered by our model. (We cannot have model to handle all cases. )
+- Inherent Stochasticity ()
+
+Probabolity Theory: 
+- Declarative representation with clear semantics.
+- Powerful reasoning patterns (conditioning decision making)
+
+
+Graph is to combine both statistical probability with computer, to handle complex models,
+
+Random Variable: Capture the uncertainty into Joint Distribution P(X1, Xn)
+
+Problem: Large Joint Distribution as the Omega is 2^n, so it is important to exploit the structure of Data Structure to handle this more efficiently.
+
+Example Graphicsl Model:
+1. Bayesian Network (Directed Graph)
+2. Markov Network (Undirected Graph)
+
+Sample
+1. CPCS (Diagnostic)
+2. Image Segmentation (So find the probability from one pixel to another)
+
+Graphicsl Representation:
+1. Intuitive & Compact Data Structure
+2. Efficient reasoning using general purpose-algorithm
+3, Spaese Representation
+
+Manu Application:
+1. Medical
+2. Fault Diagnostic
+3. etc... 
+
+
+Image Segmentation:
+1. Normal Image
+2. Superpixel (Image is divided)
+3. COmbining different SUperpixel with ML (Invididual Superpixel)
+4. If we use Normal PGM - It is much more clearer for complex result.  
+
+Textual Information Extraction
+- Convert unstructures to structured, understand Person, Object, Name, Places, etc.
+
+ 
+
+
+
+
+
